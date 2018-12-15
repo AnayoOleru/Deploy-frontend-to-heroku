@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- boostrap -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="../styles/index.css">
+	<link rel="icon" type="image/ico" href="../images/schoolLogo.jpg"/>
+	<script type="text/javascript" src="../scripts/index.js"></script>
+	<title> Arizona Empower academy</title>
+</head>
+<body>
+
+<!-- Sidebar/menu -->
+<nav class="w3-sidebar w3-bar-block w3-brown w3-collapse w3-top" style="z-index:3;width:250px" id="mySidebar">
+  <div class="w3-container w3-display-container w3-padding-16">
+    <i onclick="w3_close()" class="fa fa-remove w3-hide-large w3-button w3-display-topright"></i>
+    <h3 class="w3-wide"><b>ARIZONA ACADEMY</b></h3>
+  </div>
+  <div class="w3-padding-64 w3-large w3-text-white" style="font-weight:bold">
+    <a href="about.html" class="w3-bar-item w3-button">Global students news</a>
+    <a href="markups/bishopcourt.html" class="w3-bar-item w3-button">Assignments</a>
+    <div id="demoAcc" class="w3-bar-block w3-hide w3-padding-large w3-medium">
+      <a href="markups/admission.html" class="w3-bar-item w3-button w3-light-green"><i class="fa fa-caret-right w3-margin-right"></i>Admission</a>
+      <a href="about.html" class="w3-bar-item w3-button">About</a>
+    </div>
+   <!--  <a href="#" class="w3-bar-item w3-button">About Imsu Amebo</a>
+    <a href="#" class="w3-bar-item w3-button">Contact us</a>
+    <a href="#" class="w3-bar-item w3-button">Advertize</a>
+    <a href="#" class="w3-bar-item w3-button">Admin</a> -->
+  </div>
+  <a href="markups/about.html" class="w3-bar-item w3-button w3-padding">About</a>
+  <a href="markups/contact.html" class="w3-bar-item w3-button w3-padding">Contact</a>
+  <a href="markups/advertise.html" class="w3-bar-item w3-button w3-padding">Advertise</a>  
+  <a href="javascript:void(0)" class="w3-bar-item w3-button w3-padding" onclick="document.getElementById('newsletter').style.display='block'">Subscribe</a>  
+  <!-- <a href="#footer"  class="w3-bar-item w3-button w3-padding">Subscribe</a> -->
+</nav>
+
+
+
+<!-- responsive side -->
+<!-- Top menu on small screens -->
+<header class="w3-bar w3-top w3-hide-large w3-brown w3-xlarge">
+
+<!-- Navigation bar with social media icons -->
+<div class="w3-bar w3-brown w3-center">
+  <a href="#" class="w3-bar-item w3-button"><i class="fa fa-facebook-official"></i></a>
+  <a href="#" class="w3-bar-item w3-button"><i class="fa fa-instagram"></i></a>
+  <a href="#" class="w3-bar-item w3-button"><i class="fa fa-snapchat"></i></a>
+  <a href="#" class="w3-bar-item w3-button"><i class="fa fa-flickr"></i></a>
+  <a href="#" class="w3-bar-item w3-button"><i class="fa fa-twitter"></i></a>
+  <a href="#" class="w3-bar-item w3-button"><i class="fa fa-linkedin"></i></a>
+</div>
+
+  <div class="w3-bar-item w3-padding-24 w3-wide"><img src="../images/schoolLogo.jpg" style="height: 50px; width: 50px"><span class="bold"><span class="bold">ARIZONA</span> ACADEMY</div>
+  <a href="javascript:void(0)" class="w3-bar-item w3-button w3-padding-24 w3-right" onclick="w3_open()"><i class="fa fa-bars"></i></a>
+</header>
+
+<!-- Overlay effect when opening sidebar on small screens -->
+<div class="w3-overlay w3-hide-large" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+
+<!-- !PAGE CONTENT! -->
+<div class="w3-main" style="margin-left:260px">
+
+  <!-- Push down content on small screens -->
+  <div class="w3-hide-large" style="margin-top:150px"></div>
+  
+  <!-- Top header -->
+  <!-- for both big and small screens -->
+  <header class="w3-container w3-xlarge w3-center" style="padding-top: 10px">
+
+  	<div class="w3-bar w3-brown w3-hide-small w3-hide-medium">
+  <a href="#" class="w3-bar-item w3-button"><i class="fa fa-facebook-official"></i></a>
+  <a href="#" class="w3-bar-item w3-button"><i class="fa fa-instagram"></i></a>
+  <a href="#" class="w3-bar-item w3-button"><i class="fa fa-snapchat"></i></a>
+  <a href="#" class="w3-bar-item w3-button"><i class="fa fa-flickr"></i></a>
+  <a href="#" class="w3-bar-item w3-button"><i class="fa fa-twitter"></i></a>
+  <a href="#" class="w3-bar-item w3-button"><i class="fa fa-linkedin"></i></a>
+</div>
+  
+
+	<!-- <img class="w3-center" src="images/schooLogo.jpg" style="height: 120px;
+    width: 120px"> -->
+    <p class="w3-center w3-hide-small w3-hide-medium"><img src="../images/SchoolLogo.jpg" style="height: 50px; width: 50px"><span class="bold">ARIZONA</span> ACADEMY</p>
+  </header>
+
+  <!-- Image header -->
+<div class="w3-display-container w3-center w3-animate-opacity">
+  <img src="../images/schoolLogo.jpg" alt="Boat" style="width:50%;min-height:200px;max-height:400px;">
+  <!-- <div class="w3-display-middle w3-text-white w3-jumbo"><img class="w3-center" src="images/schooLogo.jpg" style="height: 120px; width: 120px"></div> -->
+</div>
+
+
+  	<!--Ad1 advertisement area  -->
+<hr>
+<div class="w3-center w3-padding-40 w3-content w3-section" id="ad">
+   <iframe 
+   		class="w3-center" 
+      src="images/testads2.jpg"
+      border="0"
+      scrolling="yes"
+      allowtransparency="true"
+      width="100%"
+      height="100%"
+      style="border:0;">
+   </iframe>
+</div>
+
+<hr>
+
+  		<!-- Recent post down here -->
+  		<div class="w3-padding-32">
+  			<h4 class="w3-center w3-brown">Recent Post</h4>
+
+  		<link href='https://fonts.googleapis.com/css?family=Roboto+Slab:700|Oswald' rel='stylesheet' type='text/css'>
+  
+
+  <section id="postIndex" class="widthWrapper">
+
+    <article>
+      <a target="_blank" href="#">
+        <div class="postImg">
+          <img src="https://images.pexels.com/photos/219998/pexels-photo-219998.jpeg?auto=compress&cs=tinysrgb&h=350" />
+        </div>
+        <h2>Speeding Up Your Website 101</h2>
+        <time>21 July 2015</time>
+        <p>It seems like only a select few, besides big companies and corporations, care about web page speed and performance. Browsing the web, it's common to see load times of 5 seconds and pages that weigh 4, 5, sometimes 10 megabytes! Even if that's not you, is your website optimized to its full potential? This post is not about stripping your page, its about optimizing everything so that your website loads as fast as possible.</p>
+      </a>
+    </article>
+
+    <article>
+      <a target="_blank" href="#">
+        <div class="postImg">
+          <img src="https://s4.reutersmedia.net/resources/r/?m=02&d=20171018&t=2&i=1206067272&w=&fh=545&fw=810&ll=&pl=&sq=&r=2017-10-18T190508Z_7738_MRPRC14191C48B0_RTRMADP_0_RUSSIA-ANIMALS" />
+        </div>
+        <h2>Guide to Grunt JS (The Basics)</h2>
+        <time>21 July 2015</time>
+        <p>Grunt is one of those tools I've heard of forever, but never got around to using. Everyone raves about how great it is and the amount of time they've saved, but could it really be that great? This week I took some time to learn the basics and try it on a project. They were right... Grunt is pretty awesome. Today I'm going to take you through the installation process, teach you the basics, and take you through the creation of your first Gruntfile.</p>
+      </a>
+    </article>
+
+    <article>
+      <a target="_blank" href="#">
+        <div class="postImg">
+          <img src="https://i1.wp.com/img-fotki.yandex.ru/get/15523/197059212.12/0_14541b_f067d910_orig.jpg?w=750&ssl=1" />
+        </div>
+        <h2>Social Media Icons Tutorial (SVG Sprite + Image Replacement)</h2>
+        <time>21 July 2015</time>
+        <p>Nearly every modern website has social media icons on their page. It's a great and stylish why to cross link and hold everything together. There are ton's of bad methods to add these icons to your page though. Today I offer you a clean and semantic way to add social media icons to your website using a SVG sprite sheet and image replacement. A PNG fall back and IE6+ support is included as well.</p>
+      </a>
+    </article>
+
+    <article>
+      <a target="_blank" href="#">
+        <div class="postImg">
+          <img src="http://www.freakingnews.com/pictures/118000/Human-Owl--118241.jpg" />
+        </div>
+        <h2>SVG+CSS Icon Buttons with PNG Fallbacks Tutorial</h2>
+        <time>21 July 2015</time>
+        <p>Icons make everything look cooler, there's some magical component to them that can really bring out a website. Visuals aside, using icons offer some great UX benefits as well, in many cases the user spots the icon before the word it represents. With the rising use/support of SVG we no longer have to worry about our icons looking choppy on a "retina screen". Today I want to take you though the process of creating SVG+CSS icon buttons, with PNG fallbacks.</p>
+      </a>
+    </article>
+
+    <article>
+      <a target="_blank" href="#">
+        <div class="postImg">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtUodt_LRAIvnOlLhhtZVP-KYc3pSjNnTVks_eZRdzQgRfPNivpA" />
+        </div>
+        <h2>Migrating to Ubuntu as a Web Designer and Developer</h2>
+        <time>21 July 2015</time>
+        <p>Originally a Windows and OSX user, I made the jump to Ubuntu Linux early this year. After a brief adjustment period, I must say I've grown to love it. The stability and UNIXiness (yeah, made that word up) of OSX and the flexibility of Windows make for the perfect combination of awesomeness. Today I want to do two things. Tell you why I made the migration to Ubuntu Linux as a web designer/developer, and give you a overview of all the different softwares I use on a daily basis.</p>
+      </a>
+    </article>
+  
+  </section>
+  <style type="text/css">
+  	/* Basic CSS Reset */
+html, body, div, article, section, header,
+h1, h2, h3, h4, h5, h6,
+ul, li, ol, p, img {
+  margin:0;
+  padding:0;
+}
+img {
+  border:none;
+}
+/* Global Styles */ 
+body {
+  line-height: 1.55;
+  font-size: 100%;
+  font-weight: 400;
+  font-family: helvetica, arial, sans-serif;
+}
+h1,h2,h3,h4,h5,h6 {
+  font-family: 'Roboto Slab', serif;
+  font-weight: 700;
+  line-height: 1.2;
+}
+h2 {
+  font-size: 1.55em;
+  padding-bottom: .35em;
+}
+a {
+  text-decoration: none;
+  font-weight: bold;
+  font-weight: 400;
+}
+.widthWrapper {
+  max-width: 750px;
+  margin: 0 auto;
+}
+/* Post Index */
+#postIndex {
+  margin: 3em auto;
+}
+article {
+  margin-top: -0.063em;
+}
+article a {
+  display: block;
+  padding: 2.374em 2.5em 2.5em 2.5em;
+  overflow: hidden;
+  border-top: .063em solid #ccc;
+  border-bottom: .063em solid #ccc;
+}
+article a:hover {
+  background: #eee;
+  border-top: #666 solid .25em;
+  padding: 2.187em 2.5em 2.5em 2.5em;
+}
+.postImg {
+  float: left;
+  width: 80%;
+  box-sizing: border-box;
+  padding-right: 2em;
+}
+.postImg img {
+  width: 100%;
+}
+article a h2 {
+  color: #222;
+  float: right; 
+  width: 75%;
+}
+article a:hover h2 {
+  color: #157EBF;
+}
+article a p {
+  color: #444;
+  float: right; 
+  width: 75%;
+}
+article a:hover p {
+  color: #222;
+}
+@media only screen and (max-width: 750px) {
+  #postIndex {
+    width: 100%;
+  }
+  article a {
+    padding: 2.374em 1.5em 2.5em 1.5em;
+  }
+  article a:hover {
+    padding: 2.187em 1.5em 2.5em 1.5em;
+  }
+}
+@media only screen and (max-width: 481px) {
+  .postImg {
+    float: auto ;
+   width: 100%;
+  box-sizing: border-box;
+  padding-right: 2em;
+    display: ;
+  }
+  article a p, article a h2 {
+    width: 100%;
+  }
+}
+  </style>
+
+  		<!-- Popular Post -->
+  		<!-- <div > -->
+  			<h4 class="w3-center w3-brown">Popular Post</h4>
+  			<hr>
+
+  			<link href='https://fonts.googleapis.com/css?family=Roboto+Slab:700|Oswald' rel='stylesheet' type='text/css'>
+  
+
+  <section id="postIndex" class="widthWrapper">
+
+    <article>
+      <a target="_blank" href="#">
+        <div class="postImg">
+          <img src="https://assets.blackxperience.com/content/blackattitude/blacktips/how-to-photograph-the-stars-5-720x720.jpg" />
+        </div>
+        <h2>Speeding Up Your Website 101</h2>
+        <time>21 July 2015</time>
+        <p>It seems like only a select few, besides big companies and corporations, care about web page speed and performance. Browsing the web, it's common to see load times of 5 seconds and pages that weigh 4, 5, sometimes 10 megabytes! Even if that's not you, is your website optimized to its full potential? This post is not about stripping your page, its about optimizing everything so that your website loads as fast as possible.</p>
+      </a>
+    </article>
+
+    <article>
+      <a target="_blank" href="#">
+        <div class="postImg">
+          <img src="https://s4.reutersmedia.net/resources/r/?m=02&d=20171018&t=2&i=1206067272&w=&fh=545&fw=810&ll=&pl=&sq=&r=2017-10-18T190508Z_7738_MRPRC14191C48B0_RTRMADP_0_RUSSIA-ANIMALS" />
+        </div>
+        <h2>Guide to Grunt JS (The Basics)</h2>
+        <time>21 July 2015</time>
+        <p>Grunt is one of those tools I've heard of forever, but never got around to using. Everyone raves about how great it is and the amount of time they've saved, but could it really be that great? This week I took some time to learn the basics and try it on a project. They were right... Grunt is pretty awesome. Today I'm going to take you through the installation process, teach you the basics, and take you through the creation of your first Gruntfile.</p>
+      </a>
+    </article>
+
+    <article>
+      <a target="_blank" href="#">
+        <div class="postImg">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTaSrVCg0SBSG5PjII3X8YFAnX83GwXhkJCK8vfk9Z5teCtb0Rp" />
+        </div>
+        <h2>Social Media Icons Tutorial (SVG Sprite + Image Replacement)</h2>
+        <time>21 July 2015</time>
+        <p>Nearly every modern website has social media icons on their page. It's a great and stylish why to cross link and hold everything together. There are ton's of bad methods to add these icons to your page though. Today I offer you a clean and semantic way to add social media icons to your website using a SVG sprite sheet and image replacement. A PNG fall back and IE6+ support is included as well.</p>
+      </a>
+    </article>
+
+    <article>
+      <a target="_blank" href="#">
+        <div class="postImg">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQDiJ-6Ryg4KWy8TQTu9a4bMDeDnKP9fWRS1ifX-CqZVg34IhoJ" />
+        </div>
+        <h2>SVG+CSS Icon Buttons with PNG Fallbacks Tutorial</h2>
+        <time>21 July 2015</time>
+        <p>Icons make everything look cooler, there's some magical component to them that can really bring out a website. Visuals aside, using icons offer some great UX benefits as well, in many cases the user spots the icon before the word it represents. With the rising use/support of SVG we no longer have to worry about our icons looking choppy on a "retina screen". Today I want to take you though the process of creating SVG+CSS icon buttons, with PNG fallbacks.</p>
+      </a>
+    </article>
+
+    <article>
+      <a target="_blank" href="#">
+        <div class="postImg">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSGhVy2o-aRVWk3WoPLeu6PKWfNBtrIOifT5pHwkOVoH2xWBjUp" />
+        </div>
+        <h2>Migrating to Ubuntu as a Web Designer and Developer</h2>
+        <time>21 July 2015</time>
+        <p>Originally a Windows and OSX user, I made the jump to Ubuntu Linux early this year. After a brief adjustment period, I must say I've grown to love it. The stability and UNIXiness (yeah, made that word up) of OSX and the flexibility of Windows make for the perfect combination of awesomeness. Today I want to do two things. Tell you why I made the migration to Ubuntu Linux as a web designer/developer, and give you a overview of all the different softwares I use on a daily basis.</p>
+      </a>
+    </article>
+  
+  </section>
+
+
+<!-- Advert 1a -->
+<div class="w3-center w3-padding-40 w3-content w3-section" id="ad">
+   <iframe 
+   		class="w3-center" 
+      src="images/testads2.jpg"
+      border="0"
+      scrolling="yes"
+      allowtransparency="true"
+      width="100%"
+      height="100%"
+      style="border:0;">
+   </iframe>
+</div>
+
+  		<!-- recent post end page content -->
+
+  <!-- Subscribe section -->
+  <div class="w3-container w3-brown w3-padding-32">
+    <h1>Subscribe</h1>
+    <p>Enter your email address to receive notifications of new post by e-mail:</p>
+    <p><input class="w3-input w3-border" type="text" placeholder="Enter your school e-mail" style="width:100%"></p>
+    <button type="button" class="w3-button w3-brown w3-margin-bottom">Subscribe</button>
+  </div>
+  
+ <br>
+ 
+<!-- footer -->
+  <div class="w3-brown w3-center w3-padding-24">
+  	<p><a href="markups/about.html">About</a> |
+  	<a href="markups/contribute.html">Contribute</a></p>
+  	<p><a href="markups/privacy.html">Privacy Policy</a> |
+       <a href="markups/condition.html">Terms and Conditions</a></p>
+
+     <h5>Follow us on:</h5>   
+<i class="fa fa-facebook-official w3-hover-opacity w3-large"></i>
+        <i class="fa fa-instagram w3-hover-opacity w3-large"></i>
+        <i class="fa fa-snapchat w3-hover-opacity w3-large"></i>
+        <i class="fa fa-pinterest-p w3-hover-opacity w3-large"></i>
+        <i class="fa fa-twitter w3-hover-opacity w3-large"></i>
+        <i class="fa fa-linkedin w3-hover-opacity w3-large"></i><br>
+
+        Created by <a href="#" title="Imsu-Amebo" target="_blank" class="w3-hover-opacity">Anayo Oleru</a>
+        <p>©
+                            <script>
+                                document.write(new Date().getFullYear())
+                            </script>
+                             IMSU AMEBO. All rights reserved. </p>
+  </div>
+
+
+  <!-- End page content -->
+</div>
+
+
+
+<!-- Newsletter subscription Modal -->
+<div id="newsletter" class="w3-modal">
+  <div class="w3-modal-content w3-animate-zoom" style="padding:32px">
+    <div class="w3-container w3-white w3-center">
+      <i onclick="document.getElementById('newsletter').style.display='none'" class="fa fa-remove w3-right w3-button w3-transparent w3-xxlarge"></i>
+      <h2 class="w3-wide">Subscribe</h2>
+      <p>Join our mailing list to receive updates on new post and special offers.</p>
+      <p><input class="w3-input w3-border" type="text" placeholder="Enter school e-mail"></p>
+      <button type="button" class="w3-button w3-padding-large w3-brown w3-margin-bottom" onclick="document.getElementById('newsletter').style.display='none'">Subscribe</button>
+    </div>
+  </div>
+</div>
+
+
+<!-- admin login form -->
+<div id="admin" class="w3-modal">
+  <div class="w3-modal-content w3-animate-zoom" style="padding:32px">
+    <div class="w3-container w3-white w3-center">
+      <i onclick="document.getElementById('admin').style.display='none'" class="fa fa-remove w3-right w3-button w3-transparent w3-xxlarge"></i>
+      <h2 class="w3-wide">Are you Admin?</h2>
+      <p>Sign in.</p>
+      <p><input class="w3-input w3-border" type="text" placeholder="Enter FullName" required=""></p>
+      <p><input class="w3-input w3-border" type="e-mail" placeholder="Enter e-mail" required=""></p>
+      <p><input class="w3-input w3-border" type="passsword" placeholder="Enter passsword" required=""></p>
+      <button type="button" class="w3-button w3-padding-large w3-green w3-margin-bottom" onclick="document.getElementById('admin').style.display='none'">Subscribe</button>
+    </div>
+  </div>
+</div>
+
+<script src="jquery.min.js"></script>
+<script src="jquery.collapser.min.js"></script>
+
+<script>
+	$('.card-text').collapser();
+</script>
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+</body>
+</html>
