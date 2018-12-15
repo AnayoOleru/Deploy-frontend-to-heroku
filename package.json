@@ -1,0 +1,28 @@
+{
+  "name": "deploy-frontend-to-heroku",
+  "version": "1.0.0",
+  "description": "Simple Front-end and a little backend",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AnayoOleru/Deploy-frontend-to-heroku.git"
+  },
+  "keywords": [
+    "frontend",
+    "hosted",
+    "on",
+    "heroku"
+  ],
+  "author": "Anayo Oleru",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AnayoOleru/Deploy-frontend-to-heroku/issues"
+  },
+  "homepage": "https://github.com/AnayoOleru/Deploy-frontend-to-heroku#readme",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}
