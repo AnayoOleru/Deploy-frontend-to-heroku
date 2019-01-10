@@ -7,7 +7,7 @@
     "start": "nodemon index.js",
     "db-UserCreate": "node ./db.js createTables",
     "db-UserDelete": "node ./db.js dropTables",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha --exit"
   },
   "repository": {
     "type": "git",
