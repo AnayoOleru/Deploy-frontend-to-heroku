@@ -15,14 +15,14 @@ app.use(bodyParser.urlencoded({ extended: true }));
 
 app.get('/api/v1', (req, res) => res.status(200).send({
     status: 'connection successful',
-    message: 'Welcome to 9JAZZ',
+    message: 'Welcome to Arizona Academy'
   }));
 
 app.get('/', function (req, res) {
     res.sendFile(path.join(__dirname + '/views/index.html'));
 });
 
-app.get('/about', function(req, res) {
+app.get('api/v1/about', function(req, res) {
         res.sendFile(path.join(__dirname + '/views/about.html'));
 })
 
