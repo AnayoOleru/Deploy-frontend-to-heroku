@@ -12,11 +12,8 @@ A simple web-app with built with html, css and javascript, to be deployed to her
 ## Technologies Used
 * [Node.js](https://nodejs.org) - A runtime environment based off of Chrome's V8 Engine for writing Javascript code on the server.
 * [Express.js](https://expressjs.com) - Web framework based on Node.js.
-* [Babel](https://babeljs.io) - Javascript transpiler.
-* [Eslint](https://eslint.org/) - Javascript linter. 
-* [Airbnb](https://www.npmjs.com/package/eslint-config-airbnb) style [guide](https://github.com/airbnb/javascript) was followed.
-*[bycrypt]() - an adaptive hash function based
-*[JWT]() - API authentication mechanism
+* [bycrypt]() - an adaptive hash function based
+* [JWT]() - API authentication mechanism
 
 ## Testing tools
 * [Mocha](https://mochajs.org/) - A Javascript test framework.

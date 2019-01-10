@@ -44,5 +44,3 @@ app.use(function(req, res) {
 app.listen(process.env.PORT || 8080,  function(){
     console.log("Oh yes, go on with your request, I am listening!")
 });
-
-module.exports = app;
