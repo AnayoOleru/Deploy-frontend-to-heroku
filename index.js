@@ -1,6 +1,9 @@
 const express = require('express');
 const app = express();
 const path = require('path');
+const bodyParser = require('body-parser');
+require('babel-polyfill');
+const User = require('./controller/userCtr');
 
 app.use(express.static(path.join(__dirname)));
 app.use("/styles", express.static(__dirname + '/styles'));
@@ -14,6 +17,10 @@ app.get('/', function (req, res) {
 app.get('/about', function(req, res) {
         res.sendFile(path.join(__dirname + '/views/about.html'));
 })
+
+app.post('/api/v1/users', User.create);
+// user can login 
+app.post('/api/v1/users/login', User.login);
 
 // Handle 404: send an 404 error page
 app.use(function(req, res) {
