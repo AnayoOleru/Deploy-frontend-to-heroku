@@ -10,6 +10,14 @@ app.use("/styles", express.static(__dirname + '/styles'));
 app.use("/images", express.static(__dirname + '/images'));
 app.use("/scripts", express.static(__dirname + '/scripts'));
 
+app.use(bodyParser.json())
+app.use(bodyParser.urlencoded({ extended: true }));
+
+app.get('/api/v1', (req, res) => res.status(200).send({
+    status: 'connection successful',
+    message: 'Welcome to 9JAZZ',
+  }));
+
 app.get('/', function (req, res) {
     res.sendFile(path.join(__dirname + '/views/index.html'));
 });
