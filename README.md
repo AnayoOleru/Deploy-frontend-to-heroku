@@ -2,6 +2,8 @@
 
 [![Build Status](https://travis-ci.org/AnayoOleru/Deploy-frontend-to-heroku.svg?branch=develop)](https://travis-ci.org/AnayoOleru/Deploy-frontend-to-heroku)
 
+[![Coverage Status](https://coveralls.io/repos/github/AnayoOleru/Deploy-frontend-to-heroku/badge.svg?branch=develop)](https://coveralls.io/github/AnayoOleru/Deploy-frontend-to-heroku?branch=develop)
+
 A simple web-app with built with html, css and javascript, to be deployed to heroku using git and express.js
 # Check a sample of it on https://arizonaacademy.herokuapp.com  
 
